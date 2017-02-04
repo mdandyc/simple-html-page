@@ -1,0 +1,144 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+img{max-width:100%;}
+/*end reset*/
+
+
+@font-face{
+font-family: "Abel-Regular";
+src:url(../fonts/Abel-Regular.ttf);
+}
+
+@font-face{
+font-family: "BlackOpsOne-Regular";
+src:url(../fonts/BlackOpsOne-Regular.ttf);
+}
+
+
+body{
+color:white;
+width:100%;
+text-align:center;
+font-family: "Abel-Regular";
+background-size:1400px;
+}
+.our-team{
+}
+
+.team{
+padding:180px 0;
+font-family: "Abel-Regular";
+}
+
+.team h3{
+padding:5px 0;
+font-size:38px;
+font-family: "Abel-Regular";
+font-weight:800;
+}
+
+.team h4{
+font-size:30px;
+padding-top:6px;
+font-weight:600;
+}
+
+.team p{
+font-size:18px;
+padding-top:3px;
+}
+
+.team-img img{
+border-radius: 25px 25px 25px 25px;
+-moz-border-radius: 25px 25px 25px 25px;
+-webkit-border-radius: 25px 25px 25px 25px;
+border:7px solid #dddbdb;
+}
+
+.team-bottom{
+padding-top:40px;
+}
+.contact{
+background:#1d1d1c;
+}
+
+.padding-contact{
+padding:100px 0;
+font-family: "Abel-Regular";
+}
+
+.padding-contact h3{
+font-family: "BlackOpsOne-Regular";
+font-size:24px;
+padding-bottom:20px;
+color:#5bb2fc;
+letter-spacing: 3px;
+text-align:left;
+}
+
+.padding-contact span{
+color:yellow;
+display:block;
+padding-top:10px;
+}
+
+address{
+font-size:16px;
+color:#fff;
+text-align:left;
+line-height:24px;
+}
+
+.social{
+padding-top:45px;
+}
+
+.social-icons h3{
+text-align:center;
+}
+
+ul.social li {
+    display: inline-block;
+}
+ul.social li a {
+display: inline-block;
+width: 50px;
+height: 50px;
+background: url("../images/img-sprite.png") no-repeat 0px 0px;
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+text-decoration: none;
+}
+
+ul.social li a.facebook {
+    background-position: 0px 0px;
+}
+ul.social li a.facebook:hover {
+    background-position: 0px -50px;
+}
+ul.social li a.twitter {
+    background-position: -50px 0px;
+}
+ul.social li a.twitter:hover {
+    background-position: -50px -50px;
+}
+ul.social li a.googleplus {
+    background-position: -100px 0px;
+}
+ul.social li a.googleplus:hover {
+    background-position: -100px -50px;
+}
+ul.social li a.instagram {
+    background-position: -150px 0px;
+}
+ul.social li a.instagram:hover {
+    background-position: -150px -50px;
+}
+ul.social li a.youtube {
+    background-position: -200px 0px;
+}
+ul.social li a.youtube:hover {
+    background-position: -200px -50px;
+}
