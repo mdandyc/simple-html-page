@@ -71,9 +71,11 @@ line-height:24px;
 }
 
 .social{
-padding-top:45px;
+padding-top:5px;
 }
-
+.social-icons{
+    margin-top: 150px;
+}
 .social-icons h3{
 text-align:center;
 }
